@@ -1,0 +1,98 @@
+Module 7) DA - Introduction to Python Assignment
+
+1) What are the types of Applications?
+Answer:- 1. Web Applications: These applications run within web browsers and are accessible over the internet. Examples include email clients, 		                      social media platforms, and online shopping websites. 
+	2. Mobile Applications: Designed specifically for smartphones and tablets, mobile apps offer a more tailored experience on these devices. 	                        Examples include social media apps, games, and navigation apps. 
+	3. Desktop Applications: These applications are installed and run directly on a computer's operating system. Examples include word 	    	                          processors, spreadsheet software, and image editors. 
+
+
+2) What is programing?
+Answer:- Programming is the process of creating a set of instructions that tell a computer how to perform a specific task or solve a problem. It 	 involves writing code in a programming language, which is a set of rules and syntax that allows humans to communicate with computers.
+
+
+3) What is Python?
+Answer:- Python is a high-level, versatile programming language known for its readability and ease of use.It was created by Guido Van Rossum and 	 first released in 1991
+
+
+4) Write a Python program to check if a number is positive, negative or zero.
+Answer:- number = float(input("Enter a number: "))
+         if num > 0:
+              print("positive number")
+         elif num < 0:
+              print("Negative number")
+         else:
+              print("Zero")
+
+
+5)Write a Python program to get the Factorial number of given numbers.
+Answer:- n = 6
+	fact = 1
+        for i in range(1, n + 1):
+            fact *= i
+        print(fact)
+
+
+6)How memory is managed in Python?
+Answer:- Python's memory management is handled automatically using a private heap and a combination of techniques including reference counting and 	 garbage collection. 
+
+
+7)What is the purpose continuing statement in python?
+Answer:- The purpose of the continue statement in Python is to skip the remaining code within the current iteration of a loop and immediately                                	 proceed to the next iteration. 
+
+
+8) Write a Python program to find whether a given number is even or odd, print out an appropriate message to the user.
+Answer:- num = int(input("Enter a number: "))
+if num % 2 == 0:
+    print(f"{num} is an Even number.")
+else:
+    print(f"{num} is an Odd number.")
+
+
+9) Write a Python program to count the number of characters (character frequency) in a string 
+Answer:-  for char in set(s):
+             print(char, ":", s.count(char))
+
+
+10) Differentiate between append () and extend () methods?
+Answer: list = [1, 2, 3]
+        list.append([4, 5])
+        print("After append:", list1)  # Output: [1, 2, 3, [4, 5]]
+        list.extend([6, 7])
+        print("After extend:", list1)  # Output: [1, 2, 3, [4, 5], 6, 7]
+
+
+11)Suppose list1 is [2, 33, 222, 14, and 25], what is list1 [-1]? 
+Answer: list1 = [2, 33, 222, 14, 25]
+        print(list1[-1])
+        # Output: [25]
+
+
+12) How will you remove last object from a list?
+Answer: list = [1, 2, 3, 4, 5]
+        last_item = list.pop()
+        print(list)  
+        # Output: [1, 2, 3, 4]
+        print(last_item) 
+        # Output: 5  (the removed item)
+
+
+13) What is List? How will you reverse a list?
+Answer:- A list is an ordered collection of items (elements) which can be of different types (numbers, strings, objects, etc.).
+	 Lists are mutable, meaning you can change their content after creation.
+	 Lists are defined using square brackets [], with elements separated by commas.
+	1. Using the .reverse() method (in-place):
+            my_list = [1, 2, 3, 4]
+            my_list.reverse()
+            print(my_list)  # Output: [4, 3, 2, 1]
+
+
+14)What is tuple? Difference between list and tuple.
+Answer:- A tuple is a collection of items that is:
+	Ordered (items have a fixed position)
+	Unchangeable (you can’t change items after creating it
+
+
+
+
+
+
